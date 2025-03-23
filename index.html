@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #343a40;
+            color: white;
+        }
+        .header {
+            background-color: #495057;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .link-card {
+            margin: 20px 0;
+        }
+        .img-placeholder {
+            width: 100%;
+            height: 300px; /* Tamanho fixo para todas as imagens */
+            background-color: #6c757d;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2em;
+        }
+        .card-body{
+            min-height: 360px;
+            transition: 0.3s;
+            overflow: hidden;
+        }
+        .card-body:hover .btn{
+            transform: translateY(15px);
+        }
+        .btn{
+            transition: 0.3s;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            transform: translateY(80px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Meu Portfólio de Projetos</h1>
+        <p>Links para pesquisas e hospedagens</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 link-card">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">🔍 Link Pesquisa PHP</h5>
+                        <img src="img/pesquisa php.png" class="img-placeholder">
+                        <a target="_blank" href="https://www.canva.com/design/DAGecNfP128/ZIwr-gG1Oui8hCvqOoVsBQ/edit?utm_content=DAGecNfP128&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 link-card">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">🌍 Link Hospedagem PHP no InfinityFree</h5>
+                        <img src="img/php infinityFree.png" class="img-placeholder">
+                        <a target="_blank" href="http://fg113.infinityfreeapp.com/CRUDBanco/" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 link-card">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">📋 Link Hospedagem Github – Lista de Tarefas (TO DO)</h5>
+                        <img src="img/to-do list github.png" class="img-placeholder">
+                        <a target="_blank" href="https://felipegsg.github.io/to-do-list-localStorage/" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 link-card">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">💻 Link Pesquisa: Requisições HTTP</h5>
+                        <img src="img/requisicoes http.png" class="img-placeholder">
+                        <a target="_blank" href="https://www.canva.com/design/DAGgaGVvuko/CxTszX75lueA6zQOrw3YAA/edit?utm_content=DAGgaGVvuko&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 link-card">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">🚀 Link Hospedagem Render</h5>
+                        <img src="img/primeiro uso render.png" class="img-placeholder">
+                        <a target="_blank" href="https://primeiro-uso-render.onrender.com/" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 link-card">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">⚙️ Link Hospedagem Render – CRUD completo</h5>
+                        <!-- <p>Utilizando o JSON-SERVER e EXPRESS com Dockerfile. Instale os módulos: JSON-SERVER e EXPRESS.</p> -->
+                        <img src="img/CRUD json-server e express.png" class="img-placeholder">
+                        <a target="_blank" href="https://crud-json-server-e-render.onrender.com" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
